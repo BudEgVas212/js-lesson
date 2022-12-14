@@ -25,3 +25,5 @@ if(number == 10) {
 else {
     alert("НЕ МОЛОДЕЦ")
 }
+
+
