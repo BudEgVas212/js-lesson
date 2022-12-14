@@ -26,4 +26,37 @@ else {
     alert("НЕ МОЛОДЕЦ")
 }
 
+function EGOR_PROGRAM(a, b) {
+if (a%2==0 && b%2==0){
+    return (a*b)
+}
+if (a%2!=0 && b%2!=0){
+    return (a+b)
+}
+}
+console.log(EGOR_PROGRAM(5,6))
+
+function years (p,s) {
+    let r = p-s
+    return (r-s)
+}
+console.log(years(40,12))
+
+
+m = [2,3,4,5]
+let j = 1
+for(let i=0; i<m.length; i++){
+    j=j*m[i]
+}
+console.log(j)
+
+function composition (m){
+    let j = 1
+for(let i=0; i<m.length; i++){
+    j=j*m[i]
+}
+return (j)
+}
+G = [6,7,8,19]
+console.log(composition(G))
 
