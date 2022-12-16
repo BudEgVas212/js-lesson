@@ -58,5 +58,18 @@ for(let i=0; i<m.length; i++){
 return (j)
 }
 G = [6,7,8,19]
-console.log(composition(G))
+console.log(composition(g))
 
+
+
+function summa (a, b){
+    let c = a-b
+   return  c
+}
+try {
+    throw summa (9, 1)>0
+}
+catch(a) {
+    console.log("Отрицательный результат функции")
+}
+finally{console.log("Функция проверена")}
